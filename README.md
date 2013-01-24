@@ -67,3 +67,9 @@ sxd -c "!pe" clr
 ```
 
 Print the details of every CLR exception as it occurs _without_ breaking into the debugger.
+
+```
+!EEStack -EE
+```
+
+Dumps the managed stack of every managed thread in the process.
