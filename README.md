@@ -73,3 +73,47 @@ Print the details of every CLR exception as it occurs _without_ breaking into th
 ```
 
 Dumps the managed stack of every managed thread in the process.
+
+```
+dv
+```
+
+Dump native variables on the current frame.
+
+```
+!exchain
+```
+
+Show all exception handlers on the stack.
+
+```
+.lastevent
+```
+
+Shows what the hell happened on the thread.
+
+
+```
+!gle
+```
+
+Get the last error on the current thread.
+
+```
+~*e {command}
+```
+
+Runs command on each thread.
+
+```
+!runaway
+```
+
+Shows the time the threads have been running
+
+```
+.shell ci {command}
+```
+
+Open shell for command execution
+
