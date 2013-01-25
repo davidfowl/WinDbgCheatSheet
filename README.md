@@ -11,13 +11,14 @@ Loads the sos extension (lets you run commands on managed code)
 kv
 ```
 
-Show the stack on the current thread's stack
+Show the stack on the current thread's stack (mixed managed/unmanaged)
 
 ```
 ~*kv
 ```
 
-Show the stack of all threads
+Show the stack of all threads (mixed managed/unmanaged)
+
 
 ```
 !dumpheap -stat
@@ -54,3 +55,21 @@ Dump stack objects
 ```
 
 Makes everything hyperlinks!
+
+```
+sxe clr
+```
+
+Break on first chance CLR exceptions.
+
+```
+sxd -c "!pe" clr
+```
+
+Print the details of every CLR exception as it occurs _without_ breaking into the debugger.
+
+```
+!EEStack -EE
+```
+
+Dumps the managed stack of every managed thread in the process.
