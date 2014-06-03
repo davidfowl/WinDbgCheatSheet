@@ -39,6 +39,12 @@ Dumps all objects that match the type name (partial matches)
 Dump object
 
 ```
+!dumpvc
+```
+
+Dump object for a value type
+
+```
 !gcroot {address}
 ```
 
