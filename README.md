@@ -123,3 +123,14 @@ Shows the time the threads have been running
 
 Open shell for command execution
 
+```
+!dlk
+```
+
+Check for deadlocks
+
+```
+!locks
+```
+
+Show process locks
