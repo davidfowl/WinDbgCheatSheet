@@ -134,3 +134,9 @@ Check for deadlocks
 ```
 
 Show process locks
+
+```
+~~[<thread id>]s
+```
+
+Switch threads
